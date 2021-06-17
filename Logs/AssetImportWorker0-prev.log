@@ -15,11 +15,11 @@ A:/Reactive Unity Games/Tanki
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-17257
+1853
 Successfully changed project path to: A:/Reactive Unity Games/Tanki
 A:/Reactive Unity Games/Tanki
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 23.57 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 23.02 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,71 +35,443 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001926 seconds.
+Registered in 0.001969 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.71 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 29.06 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.994 seconds
+- Completed reload, in  1.883 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000734 seconds.
+Registered in 0.000540 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.840 seconds
+- Completed reload, in  0.799 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1131 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.9 MB.
-System memory in use after: 57.9 MB.
+System memory in use before: 70.3 MB.
+System memory in use after: 70.3 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1573.
-Total: 9.095400 ms (FindLiveObjects: 0.151100 ms CreateObjectMapping: 0.045300 ms MarkObjects: 8.813700 ms  DeleteObjects: 0.083200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/Game.unity
-  artifactKey: Guid(117cfc4b24f97cc4e97d2e96ea542bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game.unity using Guid(117cfc4b24f97cc4e97d2e96ea542bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88ff4d74e2a5803f05f355fe4ae21b6') in 0.015941 seconds
-  Import took 0.018593 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1590.
+Total: 1.642400 ms (FindLiveObjects: 0.135800 ms CreateObjectMapping: 0.036200 ms MarkObjects: 1.393400 ms  DeleteObjects: 0.076000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(c09a059a905fa5c4d9315298ab38f7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(c09a059a905fa5c4d9315298ab38f7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1b86ea97199bda4e28f466d1334231') in 0.004032 seconds
-  Import took 0.005695 seconds .
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(07de72f91d6885c47a2b0d3a37df82f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(07de72f91d6885c47a2b0d3a37df82f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a853b5f00abbe2e70473f5cad8f060e') in 0.011587 seconds
+  Import took 0.013436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.273668 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged.png
+  artifactKey: Guid(6304ad603f150b649b764d29bbc2a87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged.png using Guid(6304ad603f150b649b764d29bbc2a87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a182a8474a86baf553b79da6d88f6863') in 0.164139 seconds
+  Import took 0.166238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png
+  artifactKey: Guid(9332cf0d233636a40a024382720294a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png using Guid(9332cf0d233636a40a024382720294a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbcd5e842000ae22d54762f53b00f53') in 0.010377 seconds
+  Import took 0.012249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png
+  artifactKey: Guid(3bf6d9f920f7458448a390f80318ebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png using Guid(3bf6d9f920f7458448a390f80318ebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041021af00501d2eb719580ba52886a9') in 0.016134 seconds
+  Import took 0.017990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain.png
+  artifactKey: Guid(ab6db91373811284caeba2e9472fa9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain.png using Guid(ab6db91373811284caeba2e9472fa9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd119c7ddf165197238307355d8b75ad4') in 0.011671 seconds
+  Import took 0.013539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png
+  artifactKey: Guid(b8467ea5fbaf9ba42908de6411bd443d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png using Guid(b8467ea5fbaf9ba42908de6411bd443d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192ae0664bb9c8ec6feb999026fc8527') in 0.010358 seconds
+  Import took 0.012282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Misc/UI/UI_Space.png
+  artifactKey: Guid(2cf44b29a5d30194fbdbc0c1715d2e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/UI/UI_Space.png using Guid(2cf44b29a5d30194fbdbc0c1715d2e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a505426fb88a8d9fa16101ada3b1e9') in 0.099961 seconds
+  Import took 0.101970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png
+  artifactKey: Guid(c615706690ca87043ad593475e6db7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png using Guid(c615706690ca87043ad593475e6db7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63edc733fb1c4d61c3d7509467fe0480') in 0.009455 seconds
+  Import took 0.011287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged.png
+  artifactKey: Guid(08c1fa6351174a9439d97cfc9d3307cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged.png using Guid(08c1fa6351174a9439d97cfc9d3307cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26ae88bbc28899e8a5dd0fbd4b66296') in 0.012724 seconds
+  Import took 0.014870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline.png
+  artifactKey: Guid(f054197ef28924b4986cbd91de2ab054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline.png using Guid(f054197ef28924b4986cbd91de2ab054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab09b43a521a4fe71ef2f4145495959') in 0.016638 seconds
+  Import took 0.018511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.545860 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/Handles/Handle_Plain_Arrows.png
+  artifactKey: Guid(f353d42d1db27ff42b78b28efd86b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/Handles/Handle_Plain_Arrows.png using Guid(f353d42d1db27ff42b78b28efd86b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6340132c5653a966b6167aa38b21ec') in 0.011085 seconds
+  Import took 0.012902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain.png
+  artifactKey: Guid(097782735540f2d4db5606eae04ae6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain.png using Guid(097782735540f2d4db5606eae04ae6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba67d2a8e0e4078f0ea488b6a440b24') in 0.011004 seconds
+  Import took 0.012735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/Handles/Handle_Ridged.png
+  artifactKey: Guid(3a74f678ee8f3bd49aacf3de1ae4bcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/Handles/Handle_Ridged.png using Guid(3a74f678ee8f3bd49aacf3de1ae4bcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dd337790b2feb373d3a9a86366b067') in 0.012382 seconds
+  Import took 0.014844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/Handles/Handle_Ridged_Arrows.png
+  artifactKey: Guid(a6c56474666ce0647bdb766e9b4764b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/Handles/Handle_Ridged_Arrows.png using Guid(a6c56474666ce0647bdb766e9b4764b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b194f06970df98b9e0745522b1c18e99') in 0.015245 seconds
+  Import took 0.017116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline_Arrows.png
+  artifactKey: Guid(7927b9032dc11e841af3f9a1353d7ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline_Arrows.png using Guid(7927b9032dc11e841af3f9a1353d7ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6cda73e1921fdba304284ada0d6160') in 0.012594 seconds
+  Import took 0.014800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain_Arrows.png
+  artifactKey: Guid(c8585b68a92b5d440992ddd7d1b1a3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain_Arrows.png using Guid(c8585b68a92b5d440992ddd7d1b1a3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c309e6afbe12788a9421f18c1caf8bc1') in 0.011586 seconds
+  Import took 0.013700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline.png
+  artifactKey: Guid(cd0a2c1b2c014ba4c80c1df786e150e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline.png using Guid(cd0a2c1b2c014ba4c80c1df786e150e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc67a3baa30d1d8271768725c56c06d5') in 0.010714 seconds
+  Import took 0.013049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.335706 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/Handles/Handle_Outline.png
+  artifactKey: Guid(085185b08a40a924985bc0e4176edea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/Handles/Handle_Outline.png using Guid(085185b08a40a924985bc0e4176edea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c354f39c60d64de9f6d05e99dfa4a572') in 0.015268 seconds
+  Import took 0.018116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png
+  artifactKey: Guid(5eda94a9dcf71e445ad17e3c065d1460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png using Guid(5eda94a9dcf71e445ad17e3c065d1460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8d514ae605de9476350a3158ec7da7') in 0.010134 seconds
+  Import took 0.012451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Misc/UI/Epic-Cat.png
+  artifactKey: Guid(d98b695e9735ff545ba2d91c223a455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/UI/Epic-Cat.png using Guid(d98b695e9735ff545ba2d91c223a455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a889c32e2911b348002373851e5ee8') in 0.014574 seconds
+  Import took 0.016544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/Handles/Handle_Plain.png
+  artifactKey: Guid(010a6e5305fa7004f89c5d317b7b47d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/Handles/Handle_Plain.png using Guid(010a6e5305fa7004f89c5d317b7b47d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2369e08fbe6d845a8e7616d55bd4249') in 0.019644 seconds
+  Import took 0.021620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.363173 seconds.
+  path: Assets/Misc/UI/Free UI build package/Art/Bars_Unity.png
+  artifactKey: Guid(34ecf51bcd3f4424eafda7dafd885bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/UI/Free UI build package/Art/Bars_Unity.png using Guid(34ecf51bcd3f4424eafda7dafd885bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419713061a6e4121e835d4defd480890') in 0.104216 seconds
+  Import took 0.106302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.926266 seconds.
+  path: Assets/Misc/Fonts/kenvector_future.ttf
+  artifactKey: Guid(5e623b0f57e45d942b7e0f2ede962884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/Fonts/kenvector_future.ttf using Guid(5e623b0f57e45d942b7e0f2ede962884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc95d509eca70b6ce23265ec86f39e1c') in 0.083393 seconds
+  Import took 0.085457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.102510 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png
+  artifactKey: Guid(5b56d9fa0e8bd6e409ed188db38a692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png using Guid(5b56d9fa0e8bd6e409ed188db38a692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e1142134ac13978df35990e5081672') in 0.009246 seconds
+  Import took 0.011126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain.png
+  artifactKey: Guid(84487d73ca4b791498332d8f6858417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain.png using Guid(84487d73ca4b791498332d8f6858417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6129e78b10ce406625585c47f20b6d') in 0.009538 seconds
+  Import took 0.011369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png
+  artifactKey: Guid(2a1f3cba20f3e11498474a705db12fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png using Guid(2a1f3cba20f3e11498474a705db12fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02c17a243d83f0696576d032cbf436e') in 0.009831 seconds
+  Import took 0.012007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged.png
+  artifactKey: Guid(54628aafa20f64b40ae661038ee7abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged.png using Guid(54628aafa20f64b40ae661038ee7abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0bbedf07f089baf9a9127dc79f9939') in 0.010660 seconds
+  Import took 0.012893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline_Arrows.png
+  artifactKey: Guid(48c0d4d6bebaa934384b07aa1e2f8184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline_Arrows.png using Guid(48c0d4d6bebaa934384b07aa1e2f8184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2011bab7f81d5d1e913ea3e1b4733303') in 0.009923 seconds
+  Import took 0.012061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Virtual Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png
+  artifactKey: Guid(4cbc879550e5e374a925e2e0a84d6f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png using Guid(4cbc879550e5e374a925e2e0a84d6f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f90b1a284f8c57f755ab5532d6945b') in 0.010834 seconds
+  Import took 0.012721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 344.990133 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(e2e1a293324721042bfc018bb1fbd00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(e2e1a293324721042bfc018bb1fbd00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a32fc8b90f85a86b53067f3e21b2ce') in 0.004125 seconds
+  Import took 0.006989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.094230 seconds.
+  path: Assets/Scripts/MainMenu.cs
+  artifactKey: Guid(38b55091ea7eec34ab93cc10d8cf54f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenu.cs using Guid(38b55091ea7eec34ab93cc10d8cf54f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87945bc076cb7c3e7572054ff4973f65') in 0.013071 seconds
+  Import took 0.015124 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000534 seconds.
+Registered in 0.000473 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.745 seconds
+- Completed reload, in  0.732 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1693.
+Total: 1.865900 ms (FindLiveObjects: 0.127600 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.652400 ms  DeleteObjects: 0.052500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000607 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.747 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1696.
+Total: 1.681900 ms (FindLiveObjects: 0.132300 ms CreateObjectMapping: 0.032300 ms MarkObjects: 1.461200 ms  DeleteObjects: 0.055200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 194.520838 seconds.
+  path: Assets/Scripts/MainMenu.cs
+  artifactKey: Guid(38b55091ea7eec34ab93cc10d8cf54f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenu.cs using Guid(38b55091ea7eec34ab93cc10d8cf54f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb6dc6eeb47a4155824eb2af9d0626a') in 0.004445 seconds
+  Import took 0.006191 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000556 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1699.
+Total: 1.615700 ms (FindLiveObjects: 0.126400 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.409600 ms  DeleteObjects: 0.046300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.737 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.6 MB.
-System memory in use after: 57.7 MB.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1576.
-Total: 1.654300 ms (FindLiveObjects: 0.123200 ms CreateObjectMapping: 0.030200 ms MarkObjects: 1.446600 ms  DeleteObjects: 0.052900 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1702.
+Total: 1.634800 ms (FindLiveObjects: 0.135700 ms CreateObjectMapping: 0.034600 ms MarkObjects: 1.415300 ms  DeleteObjects: 0.048100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 231.142549 seconds.
+  path: Assets/Scripts/PlayerControl.cs
+  artifactKey: Guid(a0a8a16bf731dcc448d3ff301fba16e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerControl.cs using Guid(a0a8a16bf731dcc448d3ff301fba16e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99b3e2c740cde49558ee169415d4637') in 0.005119 seconds
+  Import took 0.007068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003389 seconds.
+  path: Assets/Scripts/PlayerControl.cs
+  artifactKey: Guid(a0a8a16bf731dcc448d3ff301fba16e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerControl.cs using Guid(a0a8a16bf731dcc448d3ff301fba16e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99b3e2c740cde49558ee169415d4637') in 0.003600 seconds
+  Import took 0.005527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.032966 seconds.
+  path: Assets/Scripts/PlayerControl.cs
+  artifactKey: Guid(a0a8a16bf731dcc448d3ff301fba16e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerControl.cs using Guid(a0a8a16bf731dcc448d3ff301fba16e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a7d79a772481990fe1ad52a096c583') in 0.004632 seconds
+  Import took 0.007684 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000608 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.735 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1705.
+Total: 1.724800 ms (FindLiveObjects: 0.134400 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.505000 ms  DeleteObjects: 0.052400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.698858 seconds.
+  path: Assets/Scripts/PlayerControl.cs
+  artifactKey: Guid(a0a8a16bf731dcc448d3ff301fba16e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerControl.cs using Guid(a0a8a16bf731dcc448d3ff301fba16e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111fe6149f5c6b514f5319b72272b111') in 0.004584 seconds
+  Import took 0.006308 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000497 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.711 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1708.
+Total: 1.626600 ms (FindLiveObjects: 0.123000 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.423000 ms  DeleteObjects: 0.047100 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -419,6 +419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 408206681}
   - component: {fileID: 408206680}
+  - component: {fileID: 408206682}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -502,6 +503,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &408206682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408206679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e567a921074f4c14cbb94011247cee44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &500232092
 GameObject:
   m_ObjectHideFlags: 0
@@ -2089,7 +2103,7 @@ GameObject:
   - component: {fileID: 1133887344}
   - component: {fileID: 1133887343}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Shoot Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3825,6 +3839,8 @@ MonoBehaviour:
   turretSpeed: 50
   joyMove: {fileID: 1337040160}
   joyRotate: {fileID: 1814296265}
+  shootBtn: {fileID: 1133887341}
+  isMobile: 0
 --- !u!143 &6612539919371536432
 CharacterController:
   m_ObjectHideFlags: 0
